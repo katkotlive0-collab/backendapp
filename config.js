@@ -3,14 +3,14 @@ module.exports = {
   PORT: process.env.PORT || 5000,
 
   //secret key for API
-  SECRET_KEY: "SECRET_KEY",
+  SECRET_KEY: "E21A7F1EF5563ABBCD24615B2E7FE",
 
   //gmail credentials for send email
-  EMAIL: "EMAIL",
+  EMAIL: "katkotlive0@gmail.com",
   PASSWORD: "PASSWORD",
 
   //secret key for jwt
-  JWT_SECRET: "JWT_SECRET",
+  JWT_SECRET: "E21A7F1EF5563ABBCD24615B2E7FE",
 
   //baseURL
   baseURL: "https://yourdomain.com/",

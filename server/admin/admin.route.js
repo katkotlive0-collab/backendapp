@@ -11,17 +11,17 @@ const AdminController = require("./admin.controller");
 const AdminMiddleware = require("../middleware/admin.middleware");
 
 //get admin profile
-router.get("/profile", AdminMiddleware, AdminController.getProfile);
+router.get("/profile", AdminMiddleware, AdminController.getAdminData);
 
 //admin store with purchaseCode
 router.post(
   "/signup",
   upload.single("image"),
-  AdminController.purchaseCodeStore
+  AdminController.store
 );
 
 //update purchase code
-router.patch("/updateCode", AdminController.updateCode);
+// router.patch("/updateCode", AdminController.updateCode);
 
 //admin login
 router.post("/login", AdminController.login);
