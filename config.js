@@ -13,7 +13,7 @@ module.exports = {
   JWT_SECRET: "E21A7F1EF5563ABBCD24615B2E7FE",
 
   //baseURL
-  baseURL: "https://yourdomain.com/",
+  baseURL: "https://seahorse-app-dus62.ondigitalocean.app/",
 
   //firebase server key for send notification
   SERVER_KEY: "SERVER_KEY",
