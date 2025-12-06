@@ -90,7 +90,7 @@ exports.store = async (req, res) => {
     }
     const admin = new Admin();
     admin.email = req.body.email.trim();
-    admin.password = bcrypt.hashSync(req.body.password, 10);
+    admin.password = req.body.password;
     
     await admin.save();
 
