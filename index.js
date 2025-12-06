@@ -98,7 +98,7 @@ app.get('/*', function (req, res) {
 
 //mongodb connection
 mongoose.connect(
-  `MONGODB_CONNECTION_STRING`,
+  `mongodb+srv://katkotlive0_db_user:katkotlive0_db_user@katkotlive0.b81i8rt.mongodb.net/?appName=katkotlive0`,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
